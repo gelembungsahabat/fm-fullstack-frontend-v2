@@ -55,4 +55,40 @@ Internet berjalan menggunakan Protocol `TCP/IP`, lalu Internet mengirimkan `Pack
 - Vim ada 3 jenis Mode: Insert Mode (Text Editing), Command Mode (Primary Mode), Last Line Mode (Searching, Saving, Editing). cara untuk masuk kedalam tiap mode adalah dengan menekan huruf `i` pada keyboard untuk Insert Mode, kemudian `ESC` untuk Command Mode, dan `:` untuk Last Line Mode.
 
 ### Apa Tugas dari Server ?
-Tugas server adalah sederhana, yaitu menyajikan konten. Setiap ada request data dari Client (pengguna atau user), maka Server akan langsung menyajikan data sesuai dengan request dari Client.
+Tugas server adalah sederhana, yaitu menyajikan konten. Setiap ada request data dari Client (pengguna atau user), maka Server akan langsung menyajikan data sesuai dengan request dari Client. Semua perangkat yang bisa terhubung ke internet bisa dijadikan server (Laptop, HP, IoT Device, dll.). <br>
+
+### Data Center & The Cloud
+Data Center tempat dari beberapa server yang ditumpuk agar dapat meng-handle request dengan efisien. `Cloud Computing` sebenarnya hanyalah panggilan untuk menyewa server dari penyedia layanan server, karena servernya tidak bisa kita lihat secara langsung dan berjalan layaknya di awan, maka dari itu disebut `Cloud`.
+
+### VPS (Virtual Private Server)
+Virtual Private Server adalah Server virtual yang bisa kita gunakan dari penyedia layanan Cloud. VPS sebenarnya adalah sebuah potongan dari sebuah sistem Server, namun dapat kita gunakan `layaknya` Server biasa.
+
+### OS (Operating System) <br>
+OS pada server mempunyai dua tipe, yaitu Linux dan Windows. berikut adalah diagram turunan dari tiap OS :
+![Getting Started](https://cdn.discordapp.com/attachments/831441947549499406/953345899327803392/Screenshot_from_2022-03-16_00-36-01.png)
+
+<br>
+berikut adalah prinsip kerja dari Linux : <br>
+
+![Diagram Linux](https://cdn.discordapp.com/attachments/831441947549499406/953349781852401695/Screenshot_from_2022-03-16_00-51-06.png) <br>
+Kernel adalah layer yang berkomunikasi dengan hardware (CPU, RAM, dll.), kemudian Utilities adalah aplikasi kecil yang dibuat untuk menjalankan satu tugas saja. Karena Utilities adalah app kecil, maka Utilities dapat diupdate tanpa membuat kernel bermasalah. 
+Semua Utilities yang ada, nantinya akan berkomunikasi dengan kernel untuk menjalankan tugas yang diinginkan. 
+
+<br>
+berbeda dengan Windows yang tidak mempunyai Utilities dan membuat semuanya menjadi satu kesatuan. itulah sebabnya Windows update sangatlah menyebalkan. 
+
+### SSH 
+SSH adalah bagian dari keamanan, dan keamanan sangatlah penting untuk menghindari kejadian yang tidak diinginkan (dihack misalnya). Jem Young menjelaskan bahwa keamanan yang basic itu ada 2 cara, yaitu menggunakan SSH key, atau menggunakan username password. SSH adalah singkatan dari Secure Socket Shell, yang merupakan `key` yang sangat besar dan susah untuk dipecahkan, dan itu adalah cara yang lebih aman untuk login ke server. <br> 
+SSH terdiri dari 2 bagian, yaitu `public key` dan `private key`. <br>
+![ssh](https://cdn.discordapp.com/attachments/831441947549499406/953415343408287844/Screenshot_from_2022-03-16_05-11-41.png)
+
+<br>
+<br>
+cara kerjanya adalah sebagai berikut : <br>
+private key akan menetap di local (komputer atau perangkat user), dan public key akan dikirim ke server. data yang dikirim ke server, semuanya akan ter-enkripsi dengan private key, jadi ketika ada data yang dikirim ke server, tidak ada yang tahu apa yang terjadi karena datanya telah terenkripsi dan hanya bisa didekripsi mengunakan private key dari user.
+
+![carakerja ssh](https://cdn.discordapp.com/attachments/831441947549499406/953416369318285372/Screenshot_from_2022-03-16_05-16-04.png)
+
+<br>
+Walaupun tidak sepenuhnya aman, namun SSH adalah sistem keamanan terkuat untuk saat ini. Karena dapat mencegah terjadinya Man Of The Middle (atau disadap).
+
