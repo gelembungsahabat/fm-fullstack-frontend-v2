@@ -92,3 +92,43 @@ private key akan menetap di local (komputer atau perangkat user), dan public key
 <br>
 Walaupun tidak sepenuhnya aman, namun SSH adalah sistem keamanan terkuat untuk saat ini. Karena dapat mencegah terjadinya Man Of The Middle (atau disadap).
 
+## BAB 4: Setup Server
+### Membeli Domain
+kita bisa membeli Domain dari manapun, Jem Young menyarankan untuk membeli di namecheap.com
+
+### Setup Domain
+Untuk setup domain, kita bisa menggunakan DigitalOcean untuk menambahkan domain yang telah dibeli, kemudian mengupdate nama server di penyedia Domain. <br>
+![domain](https://cdn.discordapp.com/attachments/831441947549499406/953427678176886855/Screenshot_from_2022-03-16_06-01-00.png) <br>
+
+### Setup Server
+Hal yang perlu dilakukan untuk menyetup sebuah server adalah sebagai berikut: <br>
+![setupserver](https://cdn.discordapp.com/attachments/831441947549499406/953428807354826812/Screenshot_from_2022-03-16_06-05-30.png) <br>
+
+### Update & Upgrade Software 
+caranya mudah, kita hanya perlu memasukkan command line berupa: <br>
+```sudo apt update``` <br>
+kemudian <br>
+```sudo apt upgrade```  <br>
+selesai. <br>
+Tujuan dari mengupdate dan mengupgrade software sistem adalah untuk mencegah adanya vulnerability.
+
+### Menambahkan User Baru
+Untuk menambahkan user baru, kita hanya perlu memasukkan Command Line seperti ini : <br>
+```add user {username yang ingin dibuat}```
+<br> Tujuan dari menambahkan user baru adalah agar kita dapat mencegah untuk mengakses server menggunakan akses `root`.
+
+### Menambahkan User Permission
+berikut adalah langkah untuk menambahkan user permission di server <br>
+![userpermission](https://cdn.discordapp.com/attachments/831441947549499406/953432203562450954/Screenshot_from_2022-03-16_06-18-17.png)
+
+### Menonaktifkan Root User
+Setelah menambahkan public key di server, kita harus logout dulu dari server menggunakan perintah `exit` yang diinputkan di command line. kemudian, login dengan User baru yang telah kita buat.
+![nonaktifuser](https://cdn.discordapp.com/attachments/831441947549499406/953433017999851520/Screenshot_from_2022-03-16_06-22-14.png) <br>
+Kemudian, kita tinggal mengubah hak akses dari file Public Key, lalu menonaktifkan login menggunakan akses root. <br>
+![nonaktifroot](https://cdn.discordapp.com/attachments/831441947549499406/953433383327899658/Screenshot_from_2022-03-16_06-23-42.png)
+<br>
+untuk menonaktifkan login menggunakan root, kita perlu mengedit file `sshd_config` menjadi seperti ini : <br>
+
+![sshdconfig](https://cdn.discordapp.com/attachments/831441947549499406/953433951815471134/Screenshot_from_2022-03-16_06-25-53.png) <br>
+
+### 
