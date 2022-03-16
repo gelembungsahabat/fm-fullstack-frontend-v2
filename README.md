@@ -146,7 +146,7 @@ Fail2ban adalah aplikasi untuk mencegah orang yang hendak melakukan bruteforce (
 
 
 ## BAB 5: Dasar Penggunaan Bash
-Jem Young pada bab ini menjelaskan tentang dasar-dasar penggunaan Bash, namun hanya beberapa saja. Saya menyarankan untuk melihat artikel yang lebih lengkap disini: <br> educative.io/blog/bash-shell-command-cheat-sheet
+Jem Young pada bab ini menjelaskan tentang dasar-dasar penggunaan Bash, namun hanya beberapa saja. Saya menyarankan untuk melihat artikel yang lebih lengkap disini: <br> https://educative.io/blog/bash-shell-command-cheat-sheet
 
 ## BAB 6: Dasar Configurasi Nginx 
 ### Nginx Redirect
@@ -232,3 +232,7 @@ Redis adalah aplikasi untuk Caching (menyimpan data sementara). cara installnya 
 
 ### WebSockets
 WebSockets bertugas untuk menjaga koneksi antar perangkat yang terhubung oleh internet agar tidak terganggu oleh apapun. WebSockets mendukung koneksi dua arah, dan multiplexed.
+
+## BAB 11: Penutup
+Kita telah belajar banyak hal dari apa yang dijelaskan oleh Jem Young dalam course Fullstack Frontend v2 ini, dari cara kerja internet hingga menyimpan data di server. Saya harap rangkuman dari course ini dapat bermanfaat untuk kita semua.. <br>
+Terima kasih telah membaca! see you next time ^^
