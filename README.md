@@ -145,4 +145,20 @@ Git adalah alat yang digunakan untuk mengontrol versi dari sebuah aplikasi, bahk
 Fail2ban adalah aplikasi untuk mencegah orang yang hendak melakukan bruteforce (login secara paksa). cara kerjanya, Fail2ban akan mem-blacklist IP Address yang gagal login sebanyak 5x. Cara installnya ada di link berikut https://www.techrepublic.com/article/how-to-install-fail2ban-on-ubuntu-server-18-04/
 
 
-## BAB 5
+## BAB 5: Dasar Penggunaan Bash
+Jem Young pada bab ini menjelaskan tentang dasar-dasar penggunaan Bash, namun hanya beberapa saja. Saya menyarankan untuk melihat artikel yang lebih lengkap disini: <br> https://www.techrepublic.com/article/how-to-install-fail2ban-on-ubuntu-server-18-04/educative.io/blog/bash-shell-command-cheat-sheet
+
+## BAB 6: Dasar Configurasi Nginx 
+### Nginx Redirect
+Nginx dapat melakukan redirect dari link domain kita, ke domain yang kita inginkan. caranya adalah buka file nginx.conf, lalu tambahkan command sebagai berikut: <br>
+![redirect](https://cdn.discordapp.com/attachments/831441947549499406/953458722204712980/Screenshot_from_2022-03-16_08-03-24.png) <br>
+perintah diatas adalah untuk me-redirect route /help ke link https://developer.mozilla.org/en-US
+
+### Nginx Subdomain
+Nginx juga dapat membuat subdomain, dengan menambahkan perintah di file nginx.conf : <br>
+![subdomain](https://cdn.discordapp.com/attachments/831441947549499406/953459926334832650/Screenshot_from_2022-03-16_08-09-11.png)
+
+### Kompresi File di Nginx
+Nginx menggunakan jenis kompresi file berupa gzip.
+
+## BAB 7: Keamanan
