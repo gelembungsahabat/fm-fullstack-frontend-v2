@@ -146,7 +146,7 @@ Fail2ban adalah aplikasi untuk mencegah orang yang hendak melakukan bruteforce (
 
 
 ## BAB 5: Dasar Penggunaan Bash
-Jem Young pada bab ini menjelaskan tentang dasar-dasar penggunaan Bash, namun hanya beberapa saja. Saya menyarankan untuk melihat artikel yang lebih lengkap disini: <br> https://www.techrepublic.com/article/how-to-install-fail2ban-on-ubuntu-server-18-04/educative.io/blog/bash-shell-command-cheat-sheet
+Jem Young pada bab ini menjelaskan tentang dasar-dasar penggunaan Bash, namun hanya beberapa saja. Saya menyarankan untuk melihat artikel yang lebih lengkap disini: <br> educative.io/blog/bash-shell-command-cheat-sheet
 
 ## BAB 6: Dasar Configurasi Nginx 
 ### Nginx Redirect
@@ -207,3 +207,17 @@ HTTP/2 adalah versi HTTP yang telah support multiplexing, dan HTTP Headersnya te
 HTTP/3 masih belum rilis secara resmi, namun ada beberapa perusahaan (google contohnya) sudah menerapkan teknologi ini. 
 perbedaan yang paling mencolok dari HTTP/3 adalah, HTTP/3 berjalan menggunakan protocol UDP.
 
+## BAB 9: Dasar Container
+### Containers & Microservices
+- Container adalah sebuah sistem sangat kecil yang hanya berisi library yang dapat menjalankan suatu aplikasi.
+- Microservices adalah sebuah Service yang hanya dapat menangani satu tugas saja.
+
+### Docker & Orchestration
+Docker adalah aplikasi yang biasa digunakan untuk membuat Container, sedangkan Orchestration adalah sebuah sistem untuk mengendalikan banyak container dalam suatu Server, contoh Orchestration: Kubernetes, Docker Swarm, Amazon EKS, dll.
+
+### Load Balancer
+Load Balancer bertugas untuk mengatur resource yang dibutuhkan untuk mencegah server down. Nginx dapat digunakan juga sebagai load balancer, caranya adalah sebagai berikut: <br>
+https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/
+
+
+## BAB 10: 
