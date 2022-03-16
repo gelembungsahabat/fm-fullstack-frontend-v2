@@ -131,4 +131,18 @@ untuk menonaktifkan login menggunakan root, kita perlu mengedit file `sshd_confi
 
 ![sshdconfig](https://cdn.discordapp.com/attachments/831441947549499406/953433951815471134/Screenshot_from_2022-03-16_06-25-53.png) <br>
 
-### 
+### Pengenalan Nginx
+Nginx adalah salah satu web server yang cukup popular karena dapat dibilang salah satu web server yang cukup ringan dan cepat. Nginx dapat melakukan banyak hal, reverse proxy, web server, proxy server, caching, dan lain-lain. dan Jem Young (pemateri) sangat suka dengan software ini.
+
+### Pengenalan NodeJS
+NodeJS adalah sebuah engine untuk menjalankan Javascript, dan berjalan diatas V8 yang dikembangkan oleh google chrome. NodeJS bisa menghandle asynchronous dengan sangat baik. Untuk menginstall NodeJS sangatlah mudah, yaitu dengan cara: <br>
+```sudo apt install nodejs npm```
+
+### Version Control dengan Git
+Git adalah alat yang digunakan untuk mengontrol versi dari sebuah aplikasi, bahkan kita bisa berkolaborasi untuk membangun sebuah aplikasi bersama orang banyak.
+
+### Install Fail2ban
+Fail2ban adalah aplikasi untuk mencegah orang yang hendak melakukan bruteforce (login secara paksa). cara kerjanya, Fail2ban akan mem-blacklist IP Address yang gagal login sebanyak 5x. Cara installnya ada di link berikut https://www.techrepublic.com/article/how-to-install-fail2ban-on-ubuntu-server-18-04/
+
+
+## BAB 5
