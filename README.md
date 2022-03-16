@@ -220,4 +220,15 @@ Load Balancer bertugas untuk mengatur resource yang dibutuhkan untuk mencegah se
 https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/
 
 
-## BAB 10: 
+## BAB 10: Menyimpan Data
+Cara sederhana untuk menyimpan data adalah dengan menyimpannya ke sebuah file. Namun, ketika kita mempunyai banyak transaksi dengan banyak perangkat, mengirim file sangatlah tidak efisien. Maka dari itu ada yang namanya DBMS (Database Management System) untuk menyimpan data secara efisien. <br>
+### Tipe Database
+Database memiliki dua tipe, relational (SQL) dan non-relational (No-SQL). tiap jenis mempunyai kelebihan dan kekurangannya masing-masing. Untuk relational database, kelebihannya adalah kita dapat mengatur struktur datanya seperti apa, jadi kita tidak perlu khawatir data yang disimpan tidak
+sesuai dengan yang kita inginkan. Sebaliknya, Non-relational database tidak mempunyai struktur yang tetap, jadi kita bisa bebas menyimpan data dengan sesuka hati. 
+
+### Redis 
+Redis adalah aplikasi untuk Caching (menyimpan data sementara). cara installnya adalah sebagai berikut : <br>
+![installredis](https://cdn.discordapp.com/attachments/831441947549499406/953503421430906971/Screenshot_from_2022-03-16_11-01-57.png)
+
+### WebSockets
+WebSockets bertugas untuk menjaga koneksi antar perangkat yang terhubung oleh internet agar tidak terganggu oleh apapun. WebSockets mendukung koneksi dua arah, dan multiplexed.
