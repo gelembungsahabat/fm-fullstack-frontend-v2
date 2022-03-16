@@ -182,3 +182,28 @@ Firewall adalah sebuah perangkat jaringan keamanan yang memonitor komunikasi yan
 Uncomplicated Firewall adalah aplikasi yang menyederhanakan command line dari `iptable`. beberapa contoh command line Uncomplicated Firewall adalah sebagai berikut : <br>
 ![ufw](https://cdn.discordapp.com/attachments/831441947549499406/953468361055035433/Screenshot_from_2022-03-16_08-41-07.png) <br>
 
+## BAB 8: HTTP
+### Pengertian HTTP
+HTTP adalah singkatan dari Hypertext Transport Protocol, dan HTTP berjalan dengan menggunakan TCP/IP. 
+
+### HTTP Headers & Cookies
+HTTP Headers adalah informasi yang digunakan untuk mengirim informasi dari payload atau data yang dikirim atau diterima, berikut adalah contoh dari HTTP Headers:
+![header](https://cdn.discordapp.com/attachments/831441947549499406/953472070010961940/Screenshot_from_2022-03-16_08-56-38.png)
+
+<br>
+Struktur Headers : <br>
+
+![struktur](https://cdn.discordapp.com/attachments/831441947549499406/953475425395408966/Screenshot_from_2022-03-16_09-10-44.png)
+<br><br>
+Cookies adalah beberapa data berupa text yang akan bertahan di browser. Biasanya Cookie digunakan untuk mengambil data untuk meningkatkan User Experience dari suatu Website.
+
+### HTTPS 
+HTTPS adalah versi lebih aman dari HTTP. HTTPS menambahkan SSL (Secure Socket Layer) diatas HTTP, agar komunikasi bisa lebih aman.
+
+### HTTP/2
+HTTP/2 adalah versi HTTP yang telah support multiplexing, dan HTTP Headersnya telah dicompress untuk menghasilkan komunikasi yang lebih cepat. Versi HTTP ini adalah yang digunakan oleh banyak aplikasi di dunia saat ini.
+
+### HTTP/3
+HTTP/3 masih belum rilis secara resmi, namun ada beberapa perusahaan (google contohnya) sudah menerapkan teknologi ini. 
+perbedaan yang paling mencolok dari HTTP/3 adalah, HTTP/3 berjalan menggunakan protocol UDP.
+
