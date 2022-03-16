@@ -162,3 +162,23 @@ Nginx juga dapat membuat subdomain, dengan menambahkan perintah di file nginx.co
 Nginx menggunakan jenis kompresi file berupa gzip.
 
 ## BAB 7: Keamanan
+
+### Checklist Keamanan
+Keamanan adalah hal yang penting dalam sebuah sistem aplikasi. maka dari itu, kita dapat meningkatkan keamanan dengan beberapa cara : <br>
+- Selalu login ke server dengan menggunakan SSH
+- menambahkan Firewall
+- mengupdate software sistem
+- 2 Factor Authentication
+- VPN (Virtual Private Network)
+
+### Unattended Upgrades
+Unattended Upgrades adalah untuk mengupgrade software sistem. caranya adalah sebagai berikut: <br>
+```sudo apt install unattended-upgrades```
+
+### Firewall
+Firewall adalah sebuah perangkat jaringan keamanan yang memonitor komunikasi yang masuk dan keluar, dan menentukan antara mengizinkan atau menolak traffic tersebut berdasarkan aturan keamanan yang telah diatur.
+
+### Uncomplicated Firewall
+Uncomplicated Firewall adalah aplikasi yang menyederhanakan command line dari `iptable`. beberapa contoh command line Uncomplicated Firewall adalah sebagai berikut : <br>
+![ufw](https://cdn.discordapp.com/attachments/831441947549499406/953468361055035433/Screenshot_from_2022-03-16_08-41-07.png) <br>
+
