@@ -1,7 +1,7 @@
 # Frontend Masters : Fullstack Frontend v2
 
-Repository ini adalah rangkuman dari course yang ada di Frontend Masters dengan judul Fullstack Frontend v2 
-yang dibawakan oleh Jem Young. Jem Young adalah seorang Senior Software Engineer di Netflix.
+Repository ini adalah rangkuman dari course Frontend Masters dengan judul Fullstack Frontend v2 
+yang dibawakan oleh Jem Young https://frontendmasters.com/courses/fullstack-v2/. Jem Young adalah seorang Senior Software Engineer di Netflix.
 
 <br/><br/>
 
